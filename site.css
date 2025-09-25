@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #1a1a40);
+  background-size: 400% 400%;
+  background-size: contain;
+  background-attachment: scroll;
+  animation: galaxyMove 15s ease infinite;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+@keyframes galaxyMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.my_image{
+  display:inline-block
+}
